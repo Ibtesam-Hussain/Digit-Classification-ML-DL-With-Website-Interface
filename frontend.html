@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNIST Digit Classifier</title>
+    <link rel="stylesheet" href="frontend.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="backgroundVideo.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1>MNIST Digit Classifier</h1>
+        <p>Click on the canvas to upload an image from the MNIST Dataset</p>
+
+        <div class="canvas-container">
+            <canvas id="canvas" width="280" height="280"></canvas>
+        </div>
+
+        <div class="controls">
+            <button id="clear" class="btn">Clear</button>
+            <button id="predict" class="btn">Predict</button>
+        </div>
+
+        <div id="result" class="result">
+            <h2>Prediction Result:</h2>
+            <p id="predictionText">No prediction yet.</p>
+        </div>
+
+        <!-- Hidden file input for uploading via canvas click -->
+        <input type="file" id="fileInput" accept="image/*" style="display: none;">
+
+        
+    </div>
+    <script src="frontend .js"></script>
+</body>
+</html>

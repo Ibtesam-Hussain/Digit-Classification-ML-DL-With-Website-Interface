@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body #myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Container Styling */
+.container {
+    text-align: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid white;
+
+    background-color: rgba(38, 38, 38, 0.5);
+    backdrop-filter: blur(2px); /* Apply blur effect */
+    border-radius: 15px;
+}
+
+/* Header */
+h1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Instructions */
+p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Canvas Container */
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Canvas */
+canvas {
+    background-color: rgba(38, 38, 38, 0.5);
+    backdrop-filter: blur(2px); /* Apply blur effect */
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: dashed;
+
+    position: relative;
+
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn:active {
+    background: #003f7f;
+}
+
+/* Result Styling */
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.result p {
+    font-size: 1.8rem;
+}
+
+
+
+canvas:hover {
+    border-color: #007bff;
+}
