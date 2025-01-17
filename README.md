@@ -61,7 +61,7 @@ Make sure to change your `BASE_DIR` and `trainedModel.h5` file destination
 BASE_DIR = r"YOUR_BASE_DIR\ML Project"
 ```
 ```bash
-model = load_model(r'C:\\Users\\MCA\\Desktop\\ML Project\\digit_classification_model.h5')
+model = load_model(r'C:\\YOUR_BASE_DIR\\digit_classification_model.h5')
 ```
 ## Documentation
 
