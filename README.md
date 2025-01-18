@@ -37,6 +37,9 @@ With a batch size = 512 and after epoch = 10
 - The prediction is returned as a JSON string.  
 - The JSON response is converted into text and displayed on the frontend.
 
+## Website UI
+![Web Screenshot](https://github.com/user-attachments/assets/ff0a6fd4-6f56-46ea-99cb-94f57a12d407)
+
 
 
 
